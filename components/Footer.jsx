@@ -1,3 +1,4 @@
+/* eslint-disable import/no-useless-path-segments */
 /* eslint-disable quotes */
 
 "use client";
@@ -5,6 +6,7 @@
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { footerVariants } from "../utils/motion";
+// eslint-disable-next-line import/no-cycle
 import { TypingText } from "../components";
 import { socials } from "../constants";
 

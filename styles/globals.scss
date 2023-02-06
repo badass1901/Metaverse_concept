@@ -1,13 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-
 /* Scrollbar starts */
 
+::-webkit-scrollbar {
+  width: 0.6em;
+}
+::-webkit-scrollbar-track {
+  background: linear-gradient(0deg, hsl(295, 76%, 21%), hsl(220, 76%, 21%));
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(0deg, hsl(295, 76%, 51%), hsl(220, 76%, 51%));
 
-
+  border-radius: 100vw;
+}
 
 /* Scrollbar starts */
 * {
@@ -35,7 +38,7 @@
 .hero-gradient {
   background: linear-gradient(
     97.86deg,
-    #a509ff 0%,
+    hsl(278, 100%, 52%) 0%,
     #34acc7 53.65%,
     #a134c7 100%
   );
